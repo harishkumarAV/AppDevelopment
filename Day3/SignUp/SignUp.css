@@ -1,0 +1,116 @@
+
+.SignUp {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    height: 85vh;
+    border-radius: 8px;
+    margin-top: 1%;
+    background-color: #e0e0e0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    animation: fadeInAnimation 2s ease-in-out;
+
+  }
+  
+  .SignUp h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .SignUp form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .SignUp input[type="text"],
+  .SignUp input[type="date"],
+  .SignUp select,
+  .SignUp input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .SignUp select {
+    height: 40px;
+  }
+  
+  .SignUp input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .SignUp button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .SignUp button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+.SignUp {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    height: 120vh;
+    border-radius: 8px;
+    margin-top: 1%;
+    background-color: #e0e0e0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    animation: fadeInAnimation 2s ease-in-out;
+  }
+  
+  .SignUp h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .SignUp form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .SignUp input[type="text"],
+  .SignUp input[type="date"],
+  .SignUp select,
+  .SignUp input[type="number"],
+  .SignUp input[type="email"],
+  .SignUp input[type="password"],
+  .SignUp input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .SignUp select {
+    height: 40px;
+  }
+  
+  .SignUp input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .SignUp button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .SignUp button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
