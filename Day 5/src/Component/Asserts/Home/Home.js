@@ -1,0 +1,39 @@
+import React from 'react';
+import './Home.css';
+import { FiArrowRight } from "react-icons/fi";
+import NavBar from '../NavBar/NavBar';
+import Footer from '../Footer/Footer';
+import About from '../About/About';
+import Sidebar from '../Sidebar/Sidebar';
+import tr  from '../Assets/transparent.png'
+export default function Home() {
+  return (
+    <div className="centered-text1">
+    <NavBar/>
+      <div className="home-container">
+      <div className="home-banner-container">
+
+        <div className="home-text-section">
+          <h1 className="primary-heading">
+          Harmonizing careers
+          </h1>
+          <p className="primary-text">
+          Compose your epic symphony of success through creativity. Join us to unlock your full potential and harmonize your career journey. Discover the path to greatness with our supportive community. Together, let's make your career resonate with creativity, passion, and achievement. Join now and start your creative journey          </p>
+          <button className="secondary-button">
+            Explore <FiArrowRight />{" "}
+          </button>
+        </div>
+        <div className="home-image-section">
+          <img src={tr} alt="" />
+        </div>
+        </div>
+        <About/>
+        <Footer/>
+    </div>
+    
+      </div>
+
+  );
+}
+
+
