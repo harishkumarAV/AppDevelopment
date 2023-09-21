@@ -1,0 +1,61 @@
+
+.contact {
+    padding: 20px;
+    text-align: center;
+    animation: fadeInAnimation 1s ease-in-out; 
+  }
+  
+  .contact h2 {
+    margin-top: 15%;
+    max-width: 600px;
+    word-spacing: 3px;
+    animation: fadeInAnimation 1s ease-in-out;
+
+  }
+  
+  .contact form {
+    margin-top: 2%;
+    max-width: 600px;
+    word-spacing: 3px;
+    align-items: center;
+    animation: fadeInAnimation 1s ease-in-out; 
+  }
+  
+  .contact label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .contact input,
+  .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contact button {
+    background-color: rgb(214, 119, 210);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact button:hover {
+    background-color: rgb(161, 65, 142);
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
