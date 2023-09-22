@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .frame {
+    position: fixed;
+    top: 150px;
+    left: 340px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .frame .div {
+    width: 100%;
+    height: 100%;
+
+  }
+  
+  .frame .text-wrapper {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+
+    left: -210px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 330px;
+    animation: fadeInAnimation 2s ease-in-out; 
+
+  }
+  
+  .frame .p {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: -200px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 380px;
+    width: 199px;
+    animation: fadeInAnimation 2s ease-in-out; 
+    
+}
+
+.frame .text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 300px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 330px;
+    animation: fadeInAnimation 3s ease-in-out; 
+}
+
+.frame .we-believe-in-the {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 320px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 380px;
+    width: 199px;
+    animation: fadeInAnimation 3s ease-in-out; 
+}
+
+.frame .text-wrapper-3 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 799px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 330px;
+    animation: fadeInAnimation 4s ease-in-out; 
+}
+
+.frame .where-we-embark-on-a {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 799px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 380px;
+    width: 199px;
+    animation: fadeInAnimation 4s ease-in-out; 
+  }
+  
+  
+  .frame .element {
+    height: 414px;
+    left: 150px;
+    object-fit: cover;
+    position: absolute;
+    top: -100px;
+    width: 100%;
+    animation: fadeInAnimation 1s ease-in-out; 
+
+  }
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
