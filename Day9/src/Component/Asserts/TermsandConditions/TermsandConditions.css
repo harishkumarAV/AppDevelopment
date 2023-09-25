@@ -1,0 +1,57 @@
+
+.terms-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    animation: fadeInAnimation 2s ease-in-out;
+
+  }
+  
+  .header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .subheader {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .section {
+    margin-top: 20px;
+  }
+  
+  .section-title {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  
+  .section-content {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  
+  .footer {
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+  }
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
