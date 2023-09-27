@@ -1,0 +1,29 @@
+.page-not-available {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 5s ease-in forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+  }
+  
+  .page-not-available h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
