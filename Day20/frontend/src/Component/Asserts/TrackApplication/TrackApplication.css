@@ -1,0 +1,45 @@
+/* TrackApplication.css */
+
+/* Container for all job application cards */
+.card-container {
+    display: flex;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Style for individual job application cards */
+  .card {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  
+    /* Center the card content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style for job name */
+  .card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  /* Style for job description */
+  .card p {
+    font-size: 16px;
+    color: #444;
+  }
+  
