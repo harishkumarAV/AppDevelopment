@@ -1,0 +1,14 @@
+.recruiter-tools-container {
+    margin-top: 10rem;
+    text-align: center;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .recruiter-button {
+    margin: 10px;
+  }
+  

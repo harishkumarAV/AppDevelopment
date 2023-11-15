@@ -1,0 +1,52 @@
+/* Dashboard.css */
+.dashboard-container {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.dashcard {
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+  background-color:  rgb(76, 38, 38);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bar-chart,
+.pie-chart {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.notification-button {
+  background-color:  rgb(76, 38, 38);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.notification-button:hover {
+  background-color: rgb(76, 38, 38);
+}
